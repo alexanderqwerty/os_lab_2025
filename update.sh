@@ -1,9 +1,9 @@
-sudo apt -y update
-sudo apt -y upgrade
-sudo apt -y install man
-sudo apt -y install nano
-sudo apt -y install clang-format
-sudo apt -y install iputils-ping
-sudo apt -y install gcc
-sudo apt -y install dos2unix
-sudo apt -y install libcunit1 libcunit1-doc libcunit1-dev
+apt -y update
+apt -y upgrade
+apt -y install man
+apt -y install nano
+apt -y install clang-format
+apt -y install iputils-ping
+apt -y install gcc
+apt -y install dos2unix
+apt -y install libcunit1 libcunit1-doc libcunit1-dev
