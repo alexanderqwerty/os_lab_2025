@@ -1,7 +1,9 @@
 #include "swap.h"
 
 void Swap(char *left, char *right){
-	char tmp = *left;
-	*left = *right;
-	*right = tmp;
+   if (left != right) { 
+        *left = *left ^ *right;
+        *right = *left ^ *right;
+        *left = *left ^ *right;
+    }
 }
